@@ -1,0 +1,12 @@
+name: basic-env-ml
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - numpy
+    - pandas
+    - scikit-learn
+    - matplotlib
+    - azureml-mlflow

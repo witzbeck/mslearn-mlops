@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../alexlib"
+		}
+	],
+	"settings": {
+		"files.autoSave": "onFocusChange",
+		"python.autoComplete.extraPaths": [
+			"{workspaceFolder}/../alexlib",
+			"{workspaceFolder}/.venv/lib"
+		],
+		"python.analysis.extraPaths": [
+			"{workspaceFolder}/../alexlib",
+			"{workspaceFolder}/.venv/lib"
+		]
+	}
+}

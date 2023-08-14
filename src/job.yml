@@ -1,9 +1,9 @@
 $schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
 code: model
 command: >-
-  python 
-  --
-  --
+  python train.py 
+  --data-folder $AZUREML_DATAREFERENCE_training_data 
+  --reg-rate $AZUREML_ARGUMENTS_reg_rate
 inputs:
   training_data: 
     type: uri_folder 
